@@ -8,7 +8,7 @@
 
 AlphaPPImd 是一种用于探索蛋白质-蛋白质复合物构象空间的 **基于 Transformer 的生成模型**，旨在补充传统分子动力学（MD）模拟中采样效率低、计算成本高的问题。通过学习 MD 轨迹的构象分布，AlphaPPImd 可生成物理合理的新构象，实现对蛋白-蛋白相互作用动态机制的建模与拓展。
 
-![](fig\protein.png)
+![](fig/protein.png)
 
 ## 算法概述
 
@@ -43,7 +43,7 @@ AlphaPPImd 是一种用于探索蛋白质-蛋白质复合物构象空间的 **�
 - **Transformer 解码器**：利用自回归和交叉注意力机制预测下一个构象帧
 - **输出层**：对每个位置预测 basin 编号（即下一个时间帧的 $\phi$, $\psi$ 状态）
 
-![](fig\transformer.png)
+![](fig/transformer.png)
 
 
 
